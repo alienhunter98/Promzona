@@ -1,0 +1,99 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?99g7rg') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?99g7rg') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?99g7rg##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm"], [class*=" icm"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icmshoe {
+  &:before {
+    content: $icmshoe; 
+  }
+}
+.icmtelephone {
+  &:before {
+    content: $icmtelephone; 
+  }
+}
+.icmtextile {
+  &:before {
+    content: $icmtextile; 
+  }
+}
+.icmyoutube {
+  &:before {
+    content: $icmyoutube; 
+  }
+}
+.icmarrow-point-to-right {
+  &:before {
+    content: $icmarrow-point-to-right; 
+  }
+}
+.icmdish {
+  &:before {
+    content: $icmdish; 
+  }
+}
+.icmenvelope-shape {
+  &:before {
+    content: $icmenvelope-shape; 
+  }
+}
+.icmeye-open {
+  &:before {
+    content: $icmeye-open; 
+  }
+}
+.icmmagnifying-glass {
+  &:before {
+    content: $icmmagnifying-glass; 
+  }
+}
+.icmphoto-camera {
+  &:before {
+    content: $icmphoto-camera; 
+  }
+}
+.icmphoto-of-a-landscape {
+  &:before {
+    content: $icmphoto-of-a-landscape; 
+  }
+}
+.icmplaceholder-filled-point {
+  &:before {
+    content: $icmplaceholder-filled-point; 
+  }
+}
+.icmsearch {
+  &:before {
+    content: $icmsearch; 
+  }
+}
+.icmshirt {
+  &:before {
+    content: $icmshirt; 
+  }
+}
+

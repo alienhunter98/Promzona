@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?99g7rg') format('truetype'),
+    url('fonts/icomoon.woff?99g7rg') format('woff'),
+    url('fonts/icomoon.svg?99g7rg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm"], [class*=" icm"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icmshoe:before {
+  content: "\e900";
+}
+.icmtelephone:before {
+  content: "\e901";
+}
+.icmtextile:before {
+  content: "\e902";
+}
+.icmyoutube:before {
+  content: "\e903";
+}
+.icmarrow-point-to-right:before {
+  content: "\e904";
+}
+.icmdish:before {
+  content: "\e905";
+}
+.icmenvelope-shape:before {
+  content: "\e906";
+}
+.icmeye-open:before {
+  content: "\e907";
+}
+.icmmagnifying-glass:before {
+  content: "\e908";
+}
+.icmphoto-camera:before {
+  content: "\e909";
+}
+.icmphoto-of-a-landscape:before {
+  content: "\e90a";
+}
+.icmplaceholder-filled-point:before {
+  content: "\e90b";
+}
+.icmsearch:before {
+  content: "\e90c";
+}
+.icmshirt:before {
+  content: "\e90d";
+}
