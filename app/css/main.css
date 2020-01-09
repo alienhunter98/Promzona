@@ -8534,6 +8534,9 @@ img {
   .flickity-button-icon:hover {
     fill: #244b92; }
 
+a:focus, a:active {
+  text-decoration: none; }
+
 .btn-right {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -8997,7 +9000,9 @@ nav a {
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;
-  right: 0; }
+  right: 0;
+  z-index: 10;
+  pointer-events: none; }
   @media (max-width: 991px) {
     .top-image {
       display: none; } }

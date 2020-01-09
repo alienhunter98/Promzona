@@ -51,6 +51,12 @@ img{
 	}
 }
 
+a{
+	&:focus, &:active{
+		text-decoration: none;
+	}
+}
+
 .btn-right{
 	transform: rotate(180deg);
 }
@@ -423,6 +429,8 @@ nav{
 	position: absolute;
 	background-repeat: no-repeat;
 	right: 0;
+	z-index: 10;
+	pointer-events: none;
 	@media (max-width: 991px) {
 		display: none;
 	}
