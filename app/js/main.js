@@ -129,16 +129,6 @@ $(document).ready(function(){
     })
 
 
-	SpecialView.settings.defaultSettings.image = true;
-	$("div").map(function(i, el){
-		el = $(el);
-		if( el.css("background-image") != "none" )
-			$(el).addClass("vi-nopart");
-		console.log();
-	});
-  $(".vi-open").on("click", function(){
-  	SpecialView.run();
-  })
 });
 
 

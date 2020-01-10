@@ -8933,6 +8933,7 @@ nav a {
   padding: 0; }
   .header-bottom .navigation {
     margin: 0;
+    white-space: nowrap;
     height: 40px;
     padding: 0;
     -webkit-box-align: center;
@@ -9001,7 +9002,6 @@ nav a {
   position: absolute;
   background-repeat: no-repeat;
   right: 0;
-  z-index: 10;
   pointer-events: none; }
   @media (max-width: 991px) {
     .top-image {
