@@ -8602,7 +8602,7 @@ a:focus, a:active {
 
 .btn-def-2 {
   height: 50px;
-  width: 200px;
+  width: 40%;
   background-color: white;
   color: black;
   display: -webkit-box;
@@ -8620,11 +8620,9 @@ a:focus, a:active {
   font-size: 16px;
   -webkit-border-radius: 5px;
   border-radius: 5px; }
-  @media (max-width: 991px) {
-    .btn-def-2 {
-      width: 140px; } }
   .btn-def-2 a {
     font-size: 16px;
+    padding: 20px;
     margin: 0;
     font-family: "Gilroy";
     text-decoration: none;
@@ -8658,7 +8656,6 @@ a:focus, a:active {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   height: 50px;
-  width: 200px;
   background-color: white;
   color: black;
   display: -webkit-box;
@@ -8690,6 +8687,7 @@ a:focus, a:active {
     -webkit-box-shadow: 0px 0px 25px 9px rgba(26, 47, 199, 0.3);
     box-shadow: 0px 0px 25px 9px rgba(26, 47, 199, 0.3); }
   .btn-def-3 a {
+    padding: 15px;
     font-size: 16px;
     margin: 0;
     font-family: "Gilroy";
@@ -9894,11 +9892,14 @@ footer .footer-bottom {
   background-color: transparent;
   margin: 0;
   padding: 8px 0;
-  font-size: 1.4em;
+  font-size: 1em;
   z-index: 1;
   position: relative;
   font-weight: 300;
   font-family: "Gilroy"; }
+  @media (max-width: 991px) {
+    .breadcrumb {
+      font-size: 0.8em; } }
   .breadcrumb a:hover, .breadcrumb a a:hover, .breadcrumb .active a:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
@@ -10521,6 +10522,53 @@ input.form-field {
 textarea.form-field {
   height: 180px;
   resize: none; }
+
+.page-name-search .page-name-desc h1 {
+  padding: 0;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 80px 0; }
+  @media (max-width: 991px) {
+    .page-name-search .page-name-desc h1 {
+      margin: 20px 0; } }
+  .page-name-search .page-name-desc h1:before {
+    display: none; }
+
+.page-name-search .search-place-wrapper {
+  height: 226px; }
+  .page-name-search .search-place-wrapper .search-place {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative; }
+    .page-name-search .search-place-wrapper .search-place input {
+      width: 80%;
+      padding: 15px 20px;
+      font-size: 16px;
+      border: 1px solid #dadada; }
+      .page-name-search .search-place-wrapper .search-place input:focus {
+        outline: none; }
+    .page-name-search .search-place-wrapper .search-place .btn-def-3 {
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 30px;
+      margin: 0;
+      height: 54px;
+      padding: 15px 30px; }
+
+.results-wrapper .novelty .novelty-desc .novelty-date {
+  margin-bottom: 0; }
 
 /*
 		_helper.scss	
