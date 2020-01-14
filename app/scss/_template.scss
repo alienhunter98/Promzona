@@ -1488,11 +1488,11 @@ footer{
 			padding: 10px 35px;
 		}
 		h4{
-		font-size: 16px;
-		font-family: $font-family-3;
-		font-weight: bold;
-		margin-bottom: 30px;
-		margin-top: 0;
+			font-size: 16px;
+			font-family: $font-family-3;
+			font-weight: bold;
+			margin-bottom: 30px;
+			margin-top: 0;
 			@media (max-width: 991px) {
 				margin-bottom: 20px;
 				font-size:12px;
@@ -1504,11 +1504,16 @@ footer{
 			font-family: $font-family-1;
 			margin-bottom: 30px;
 			color:#666666;
+			span{
+				color:$color-1;
+				font-weight: bold;
+			}
 			@media (max-width: 991px) {
 				margin-bottom: 20px;
 				font-size:12px;
 			}
 		}
+
 		.novelty-date{
 			margin-bottom: 30px;
 			font-size:16px;
@@ -1559,7 +1564,9 @@ footer{
 		@media (max-width: 991px) {
 			font-size: 12px;
 		}
-
+		.active{
+			color: $color-1;
+		}
 		li{
 			list-style: none;
 			padding: 0 10px;
@@ -2027,6 +2034,10 @@ textarea.form-field{
 	
 	.search-place-wrapper{
 		height: 226px;
+		@media(max-width: 991px){
+			height: auto;
+			margin-bottom: 20px;
+		}
 		.search-place{
 			height: 100%;
 			display:flex;
@@ -2054,11 +2065,32 @@ textarea.form-field{
 		}
 	}
 }
+.result-place{
+	background-color: #f6f6f6;
+	width: 100%;
+	height: 50px;
+	padding: 20px;
+	display: flex;
+	align-items:center; 
+	margin-bottom: 40px;
+	@media(max-width: 991px){
+		margin-bottom: 20px;
+	}
+	p{
+		span{
+			color:$color-1;
+			font-weight: bold;
+		}
+	}
+}
 .results-wrapper{
 	.novelty{
-		.novelty-desc{
-			.novelty-date{
-				margin-bottom: 0;
+		a{
+			text-decoration: none;
+			.novelty-desc{
+				.novelty-date{
+					margin-bottom: 0;
+				}
 			}
 		}
 	}

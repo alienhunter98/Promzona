@@ -10059,6 +10059,9 @@ footer .footer-bottom {
       font-family: "Montserrat";
       margin-bottom: 30px;
       color: #666666; }
+      .novelty .novelty-desc p span {
+        color: #244b92;
+        font-weight: bold; }
       @media (max-width: 991px) {
         .novelty .novelty-desc p {
           margin-bottom: 20px;
@@ -10124,6 +10127,8 @@ footer .footer-bottom {
     @media (max-width: 991px) {
       .number-wrapper .numbers {
         font-size: 12px; } }
+    .number-wrapper .numbers .active {
+      color: #244b92; }
     .number-wrapper .numbers li {
       list-style: none;
       padding: 0 10px; }
@@ -10536,6 +10541,10 @@ textarea.form-field {
 
 .page-name-search .search-place-wrapper {
   height: 226px; }
+  @media (max-width: 991px) {
+    .page-name-search .search-place-wrapper {
+      height: auto;
+      margin-bottom: 20px; } }
   .page-name-search .search-place-wrapper .search-place {
     height: 100%;
     display: -webkit-box;
@@ -10567,8 +10576,31 @@ textarea.form-field {
       height: 54px;
       padding: 15px 30px; }
 
-.results-wrapper .novelty .novelty-desc .novelty-date {
-  margin-bottom: 0; }
+.result-place {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 40px; }
+  @media (max-width: 991px) {
+    .result-place {
+      margin-bottom: 20px; } }
+  .result-place p span {
+    color: #244b92;
+    font-weight: bold; }
+
+.results-wrapper .novelty a {
+  text-decoration: none; }
+  .results-wrapper .novelty a .novelty-desc .novelty-date {
+    margin-bottom: 0; }
 
 /*
 		_helper.scss	
